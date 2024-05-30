@@ -20,6 +20,20 @@
 //     }
 // }
 
+//Exercicio 3:
+
+// function somaPrompt() {
+//     let numero1 = parseInt(prompt('Digite o primeiro número inteiro'));
+//     let numero2 = parseInt(prompt('Digite o segundo número inteiro'));
+
+//  if (!isNaN(numero1) && !isNaN(numero2)) {
+//     let soma = numero1 + numero2;
+//     alert(`A soma do número ${numero1} e ${numero2} é ${soma}.`)
+//  } else {
+//     alert('Você deve digitar dois números inteiros válidos.')
+//  };
+ 
+// }
 
 
 //HTML REFERENTE:
