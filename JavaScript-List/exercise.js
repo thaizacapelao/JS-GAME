@@ -1,3 +1,5 @@
+//Exercicio 1:
+
 
 // let titulo = document.querySelector('h1');
 // titulo.innerHTML = 'Hora do desafio';
@@ -5,6 +7,8 @@
 // function botaoClick() {
 //     alert('Eu amo JS');
 // }
+
+//Exercicio 2:
 
 // function cidadePrompt() {
 //     let cidade = prompt('Me diga um nome de uma cidade do Brasil');
@@ -14,19 +18,6 @@
 //     } else {
 //         alert('Digite um nome de cidade');
 //     }
-// }
-
-// function somaPrompt() {
-//     let numero1 = parseInt(prompt('Digite o primeiro número inteiro'));
-//     let numero2 = parseInt(prompt('Digite o segundo número inteiro'));
-
-//  if (!isNaN(numero1) && !isNaN(numero2)) {
-//     let soma = numero1 + numero2;
-//     alert(`A soma do número ${numero1} e ${numero2} é ${soma}.`)
-//  } else {
-//     alert('Você deve digitar dois números inteiros válidos.')
-//  };
- 
 // }
 
 
