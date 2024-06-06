@@ -7,6 +7,8 @@
 //Fazendo uma função para que nao seja necessario escrever duas linhas de código toda vez
 // que for alterar uma tag e um texto apenas
 
+let numeroSecreto = gerarNumeroAleatorio();
+
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
@@ -17,9 +19,9 @@ exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 
 
 function gerarNumeroAleatorio(){
-    parseInt(Math.random() * 10 + 1)
+   return parseInt(Math.random() * 10 + 1)
 }
 
 function verificarChute() {
-    console.log('O botão foi clicado');
+    console.log(`O numero secreto é ${numeroSecreto}`);
 }
