@@ -23,5 +23,6 @@ function gerarNumeroAleatorio(){
 }
 
 function verificarChute() {
-    console.log(`O numero secreto é ${numeroSecreto}`);
+    let chute = document.querySelector('input').value;
+    console.log(chute == numeroSecreto);
 }
