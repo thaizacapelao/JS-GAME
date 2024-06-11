@@ -128,3 +128,12 @@
 // function MaiorNumero2(num1, num2, num3) {
 //     return Math.max(num1, num2, num3);
 // }
+
+
+// Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+
+// function multiplicador(numero) {
+//     return numero * numero;
+// }
+
+// console.log(multiplicador(8));

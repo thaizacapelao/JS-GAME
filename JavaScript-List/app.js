@@ -26,9 +26,3 @@ function verificarChute() {
     let chute = document.querySelector('input').value;
     console.log(chute == numeroSecreto);
 }
-
-function multiplicador(numero) {
-    return numero * numero;
-}
-
-console.log(multiplicador(8));
