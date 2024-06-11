@@ -28,8 +28,7 @@ function verificarChute() {
 }
 
 function multiplicador(numero) {
-    let multiplicarPorEle = numero * numero
-    return multiplicarPorEle;
+    return numero * numero;
 }
 
 console.log(multiplicador(8));
