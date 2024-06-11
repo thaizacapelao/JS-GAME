@@ -26,3 +26,6 @@ function verificarChute() {
     let chute = document.querySelector('input').value;
     console.log(chute == numeroSecreto);
 }
+
+
+

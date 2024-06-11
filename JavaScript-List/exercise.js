@@ -77,3 +77,27 @@
 // </body>
 
 // </html>
+
+//Desafios:
+
+
+// let nome = 'Thaiza';
+
+// function olaMundo() {
+//     console.log(`Olá ${nome}`);
+// }
+
+
+
+// let numero = 8;
+
+// function dobrarNumero(){
+//     let numeroDobrado = numero * 2
+//     alert(`O numero é ${numeroDobrado}`)
+//     return numeroDobrado;
+// }
+
+// dobrarNumero();
+
+
+
