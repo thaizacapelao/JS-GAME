@@ -81,6 +81,10 @@
 //Desafios:
 
 
+// Criar uma função que exibe "Olá, mundo!" no console.
+
+// E Criar uma função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console.
+
 // let nome = 'Thaiza';
 
 // function olaMundo() {
@@ -88,6 +92,7 @@
 // }
 
 
+// Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
 
 // let numero = 8;
 
@@ -100,4 +105,11 @@
 // dobrarNumero();
 
 
+//  Criar uma função que recebe três números como parâmetros e retorna a média deles.
 
+// function mediaDe3Valores(num1, num2, num3) {
+//     let media = num1 + num2 + num3 / 3;
+//     return media;
+// }
+
+// console.log(`A média dos valores é ${mediaDe3Valores(12, 22, 43)}`);

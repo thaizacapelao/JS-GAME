@@ -28,4 +28,9 @@ function verificarChute() {
 }
 
 
+function mediaDe3Valores(num1, num2, num3) {
+    let media = num1 + num2 + num3 / 3;
+    return media;
+}
 
+console.log(`A média dos valores é ${mediaDe3Valores(12, 22, 43)}`);
