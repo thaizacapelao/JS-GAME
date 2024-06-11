@@ -26,6 +26,13 @@ function verificarChute() {
     let chute = document.querySelector('input').value;
         if (chute == numeroSecreto) {
             exibirTextoNaTela('h1', 'Você acertou!');
+            exibirTextoNaTela('p', 'Você Descobriu o número Secreto!');
+        } else {
+            if (chute > numeroSecreto) {
+            exibirTextoNaTela('p', 'O número Secreto é menor');
+            } else {
+            exibirTextoNaTela('p', 'O número Secreto é maior');
+            }
         }
 }
 
