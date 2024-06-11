@@ -27,10 +27,9 @@ function verificarChute() {
     console.log(chute == numeroSecreto);
 }
 
-
-function mediaDe3Valores(num1, num2, num3) {
-    let media = num1 + num2 + num3 / 3;
-    return media;
+function multiplicador(numero) {
+    let multiplicarPorEle = numero * numero
+    return multiplicarPorEle;
 }
 
-console.log(`A média dos valores é ${mediaDe3Valores(12, 22, 43)}`);
+console.log(multiplicador(8));

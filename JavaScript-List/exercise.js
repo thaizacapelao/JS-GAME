@@ -113,3 +113,18 @@
 // }
 
 // console.log(`A média dos valores é ${mediaDe3Valores(12, 22, 43)}`);
+
+
+//Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+
+// function maiorNumero(num1, num2) {
+//     if(num1 > num2) {
+//         console.log(`O maior número é ${num1}`);
+//     } else{
+//         console.log(`O maior número é ${num2}`);
+//     }
+// }
+
+// function MaiorNumero2(num1, num2, num3) {
+//     return Math.max(num1, num2, num3);
+// }
