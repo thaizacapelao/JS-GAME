@@ -36,6 +36,7 @@ function verificarChute() {
             } else {
             exibirTextoNaTela('p', 'O número Secreto é maior');
             }
+            // tentativas = tentativas + 1;
             tentativas++;
         }
 }
