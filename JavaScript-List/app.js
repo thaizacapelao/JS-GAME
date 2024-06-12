@@ -8,6 +8,7 @@
 // que for alterar uma tag e um texto apenas
 
 let numeroSecreto = gerarNumeroAleatorio();
+let tentativas = 1;
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -26,13 +27,16 @@ function verificarChute() {
     let chute = document.querySelector('input').value;
         if (chute == numeroSecreto) {
             exibirTextoNaTela('h1', 'Você acertou!');
-            exibirTextoNaTela('p', 'Você Descobriu o número Secreto!');
+            let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+            let qntTentativas = `Você descobriu o número Secreto com ${tentativas} ${palavraTentativa}!`;
+            exibirTextoNaTela('p', qntTentativas);
         } else {
             if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O número Secreto é menor');
             } else {
             exibirTextoNaTela('p', 'O número Secreto é maior');
             }
+            tentativas++;
         }
 }
 
