@@ -38,7 +38,14 @@ function verificarChute() {
             }
             // tentativas = tentativas + 1;
             tentativas++;
+            limparCampo();
         }
 }
+
+function limparCampo() {
+    let chute = document.querySelector('input');
+    chute.value = '';
+}
+
 
 console.log(numeroSecreto);
