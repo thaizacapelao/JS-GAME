@@ -30,6 +30,7 @@ function verificarChute() {
             let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
             let qntTentativas = `Você descobriu o número Secreto com ${tentativas} ${palavraTentativa}!`;
             exibirTextoNaTela('p', qntTentativas);
+            document.getElementById('reiniciar').removeAttribute('disabled');
         } else {
             if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O número Secreto é menor');
