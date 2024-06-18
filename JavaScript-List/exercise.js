@@ -137,3 +137,12 @@
 // }
 
 // console.log(multiplicador(8));
+
+
+//Crie uma função que calcule o índice de massa corporal
+
+// function iMC(peso, altura) {
+//     return peso / (altura * altura);
+// }
+
+// console.log(iMC(58, 1.63));
