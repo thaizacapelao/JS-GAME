@@ -62,11 +62,3 @@ function reiniciarJogo() {
 
 
 console.log(numeroSecreto);
-
-
-function iMC(peso, altura) {
-    return peso / (altura * altura);
-}
-
-console.log(iMC(58, 1.63));
-
