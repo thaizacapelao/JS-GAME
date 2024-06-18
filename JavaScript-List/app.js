@@ -75,3 +75,8 @@ function fatorial(n) {
     }
     return resultado;
 }
+
+function converterDolar(reais){
+    const taxaDeCambio = 4.80;
+    return reais / taxaDeCambio
+}

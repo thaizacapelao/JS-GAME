@@ -146,3 +146,12 @@
 // }
 
 // console.log(iMC(58, 1.63));
+
+//
+
+// Crie uma função que converte reais em dólar
+
+// function converterDolar(reais){
+//     const taxaDeCambio = 4.80;
+//     return reais / taxaDeCambio
+// }
