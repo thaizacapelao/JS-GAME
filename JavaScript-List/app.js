@@ -75,25 +75,3 @@ function fatorial(n) {
     }
     return resultado;
 }
-
-// function mostrarTabuada(numero, multiplicador = 1) {
-//     if (multiplicador > 10) {
-//         return;
-//     }
-//     console.log(`${numero} x ${multiplicador} = ${numero * multiplicador}`);
-//     mostrarTabuada(numero, multiplicador + 1);
-// }
-
-// const numero = 5;
-// mostrarTabuada(numero);
-
-
-function tabuada(numero) {
-    console.log(`Tabuada do ${numero}`)
-    for(let i = 1; i <= 10; i++) {
-        console.log(`${numero} x ${i} = ${numero * i}`);
-    }
-}
-
-const numero = 7; 
-tabuada(numero);
