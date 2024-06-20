@@ -15,6 +15,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate: 1.2});
 }
 
 
@@ -75,16 +76,3 @@ function reiniciarJogo() {
 
 
 console.log(numeroSecreto);
-
-
-function fatorial(n) {
-    if (n < 0) {
-        throw new Error("O número deve ser não negativo");
-    }  
-
-    let resultado = 1;
-    for (let i = 1; i <= n; i++) {
-        resultado *= i;
-    }
-    return resultado;
-}

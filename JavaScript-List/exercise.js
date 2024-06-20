@@ -193,3 +193,17 @@
 // console.log(lista3Nomes[0]);
 // console.log(lista3Nomes[1]);
 // console.log(lista3Nomes[2]);
+
+
+//
+// function fatorial(n) {
+//     if (n < 0) {
+//         throw new Error("O número deve ser não negativo");
+//     }  
+
+//     let resultado = 1;
+//     for (let i = 1; i <= n; i++) {
+//         resultado *= i;
+//     }
+//     return resultado;
+// }
