@@ -8,6 +8,7 @@
 // que for alterar uma tag e um texto apenas
 
 let listaDeNumerosSorteados = [];
+let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -25,7 +26,12 @@ function exibirMensagemInicial(){
 exibirMensagemInicial();
 
 function gerarNumeroAleatorio(){
-   let numeroSorteado = parseInt(Math.random() * 10 + 1);
+   let numeroSorteado = parseInt(Math.random() * numeroLimite + 1);
+   let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
+
+        if (quantidadeDeElementosNaLista == numeroLimite) {
+            listaDeNumerosSorteados = [];
+        }
         if(listaDeNumerosSorteados.includes(numeroSorteado)) {
             gerarNumeroAleatorio();
         } else {
@@ -74,7 +80,7 @@ console.log(numeroSecreto);
 function fatorial(n) {
     if (n < 0) {
         throw new Error("O número deve ser não negativo");
-    }
+    }  
 
     let resultado = 1;
     for (let i = 1; i <= n; i++) {
